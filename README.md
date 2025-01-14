@@ -19,7 +19,7 @@ pip install mediapipe
 
 ## How It Works
 
-1. **Webcam Feed**: The program uses `cv2.VideoCapture(0)` to capture the live video feed from your webcam.
+1. **Webcam Feed**: The program uses `cv2.VideoCapture(0)` to capture the live video feed from your **webcam**.
 2. **Hand Detection**: The MediaPipe **Hands** module processes each frame to detect hand landmarks.
 3. **Landmarks Visualization**: If hands are detected, the program draws landmarks on the hands and visualizes the connections between those landmarks in real-time using the `mp.solutions.drawing_utils`.
 4. **Exit**: To exit the program, simply press the **Esc** key.
